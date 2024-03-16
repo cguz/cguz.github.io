@@ -7,10 +7,36 @@ minimal_mistakes_skin    : "contrast"
 # Site Settings
 locale                   : "en-US"
 title                    : "Cguz Innovation"
-name                     : "Dr. Cesar Guzman"
-email                    : cguzwork@cguz.org
-description              : "AI technology for Space. On-board the European Space Agency's OPS-SAT Space Lab. Edge computing for in-orbit ML, multi-agent execution planning, and autonomous decision-making."
-url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
+
+# settings for author profile
+author:
+  name                     : "Dr. Cesar Guzman"
+  avatar                   : "/assets/images/bio-cesar-guzman.png"
+  bio                      : "AI technology for Space. On-board the European Space Agency's OPS-SAT Space Lab. Edge computing for in-orbit ML, multi-agent execution planning, and autonomous decision-making."
+  location                 : "ESA"
+  github                   : cguz
+  linkedin                 : cguz
+  email                    : cguzwork@cguz.org
+  url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
+  
+
+# # comments by disqus
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "pwills-com"
+
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-116208936-1"
+
+
+# pagination for blog page
+paginate: 10 # number of posts to show
+paginate_path: /page:num/
+
+
 include:
   - _pages
   - assets
@@ -91,33 +117,13 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-
-# settings for author profile
-author:
-  name   : "Peter Wills"
-  avatar : "/assets/images/bio-cesar-guzman.png"
-  bio    : "I enjoy writing about things I'm interested in - mostly computing, math, physics, and software engineering."
-  location: "Ithaca, NY"
-  github : peterewills
-  linkedin: peterewills
-  email  : peter@pwills.com
-
-
-# # comments by disqus
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "pwills-com"
-
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "UA-116208936-1"
-
-
-# pagination for blog page
-paginate: 10 # number of posts to show
-paginate_path: /page:num/
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 # default YAML front matter
 defaults:
