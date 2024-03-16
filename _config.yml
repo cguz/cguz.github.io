@@ -1,7 +1,8 @@
 # Configs for cguz.org
 
 # Build settings
-remote_theme             : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast"
 
 # Site Settings
