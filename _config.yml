@@ -12,7 +12,7 @@ title                    : "Cguz Innovation"
 author:
   name                     : "Dr. Cesar Guzman"
   avatar                   : "/assets/images/bio-cesar-guzman.png"
-  bio                      : "AI technology for Space. On-board the European Space Agency's OPS-SAT Space Lab. Edge computing for in-orbit ML, multi-agent execution planning, and autonomous decision-making."
+  bio                      : "Likes diving and applying AI in space.<br><br>👷🏽 Engineering Manager<br>🛰️ Spacecraft<br>💻 Researcher<br>🔬 AI Engineer <br>🔎 Curious"
   location                 : "ESA"
   github                   : cguz
   linkedin                 : cguz
@@ -24,7 +24,7 @@ author:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "pwills-com"
+    shortname: "cguz-org"
 
 analytics:
   provider: "google"
@@ -124,6 +124,43 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
 
 # default YAML front matter
 defaults:
