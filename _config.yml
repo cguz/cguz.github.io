@@ -9,31 +9,6 @@ locale                   : "en-US"
 title                    : "Cguz Innovation"
 
 # settings for author profile
-author:
-  name                     : "Dr. Cesar Guzman"
-  avatar                   : "/assets/images/bio-cesar-guzman.png"
-  bio                      : "Likes diving and applying AI in space.<br><br>👷🏽 AI Engineer & Management<br>🛰️ Spacecraft<br>🔬 Researcher<br>🔎 Curious"
-  location                 : "ESA"
-  github                   : cguz
-  linkedin                 : cguz
-  email                    : cguzwork@cguz.org
-  url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/cguz/"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar-square"
-      url: "https://scholar.google.com/citations?user=pwRGe0wAAAAJ"
-    - label: "ORCID"
-      icon: "fab fa-orcid"
-      url: "{https://orcid.org/0000-0002-0552-0967"
-    - label: "ResearchGate"
-      icon: "fab fa-researchgate"
-      url: "https://www.researchgate.net/profile/Cesar-Guzman-Alvarez/research"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/cguz"
 
 
 # # comments by disqus
@@ -43,14 +18,37 @@ comments:
     shortname: "cguz-org"
 
 analytics:
-  provider: "google"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: "UA-116208936-1"
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
 
 
 # pagination for blog page
 paginate: 10 # number of posts to show
 paginate_path: /page:num/
+
+author:
+  name                     : "Dr. Cesar Guzman"
+  avatar                   : "/assets/images/bio-cesar-guzman.png"
+  bio                      : "Likes diving and applying AI in space.<br><br>👷🏽 AI Engineer & Management<br>🛰️ Spacecraft<br>🔬 Researcher<br>🔎 Curious"
+  location                 : "Near ESA"
+  github                   : cguz
+  linkedin                 : cguz
+  email                    : cguzwork@cguz.org
+  url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
+  links:
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar-square"
+      url: "https://scholar.google.com/citations?user=pwRGe0wAAAAJ"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "{https://orcid.org/0000-0002-0552-0967"
+    - label: "ResearchGate"
+      icon: "fab fa-researchgate"
+      url: "https://www.researchgate.net/profile/Cesar-Guzman-Alvarez/research"
+
+
 
 
 # Site Footer
