@@ -1,11 +1,19 @@
-# Configs for pwills.com
+# Configs for cguz.org
 
-title: "pwills.com"
-name: "pwills.com"
+# Site Settings
+locale                   : "en-US"
+title                    : "Cguz Innovation"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Dr. Cesar Guzman"
 email: peter@pwills.com
-url: "http://www.pwills.com"
-repository: "peterewills/peterewills.github.io"
-
+description              : "AI technology for Space. On-board the European Space Agency's OPS-SAT Space Lab. Edge computing for in-orbit ML, multi-agent execution planning, and autonomous decision-making."
+url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 include:
   - _pages
   - assets
