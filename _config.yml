@@ -4,7 +4,7 @@
 locale                   : "en-US"
 title                    : "Cguz Innovation"
 name                     : "Dr. Cesar Guzman"
-email: peter@pwills.com
+email                    : cguzwork@cguz.org
 description              : "AI technology for Space. On-board the European Space Agency's OPS-SAT Space Lab. Edge computing for in-orbit ML, multi-agent execution planning, and autonomous decision-making."
 url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
 include:
@@ -12,11 +12,37 @@ include:
   - assets
   - index.html
 exclude:
-  - TODO.md
-  - README.md
-  - "*.org"
-  - "*ltximg*"
-
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
