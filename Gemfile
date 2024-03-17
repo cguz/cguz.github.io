@@ -12,8 +12,8 @@ gem "jekyll", "~> 4.3.1"
 gem "minima", "~> 2.5"
 
 # Theme
-gem "jekyll-remote-theme"
-#gem "minimal-mistakes-jekyll"
+# gem "jekyll-remote-theme"
+gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache"
 gem "jekyll-paginate"
 
