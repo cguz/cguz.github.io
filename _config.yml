@@ -1,9 +1,14 @@
 # Configs for cguz.org
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
 # Build settings
 theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -34,42 +39,39 @@ author:
   avatar                   : "/assets/images/bio-cesar-guzman.png"
   bio                      : "Likes diving and applying AI in space.<br><br>👷🏽 AI Engineer & Management<br>🛰️ Spacecraft<br>🔬 Researcher<br>🔎 Curious"
   location                 : "Near ESA"
-  github                   : cguz
-  linkedin                 : cguz
+  #github                   : cguz
+  #linkedin                 : cguz
   email                    : cguzwork@cguz.org
   url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
   links:
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square"
-      url: "https://scholar.google.com/citations?user=pwRGe0wAAAAJ"
+      #url: "https://scholar.google.com/citations?user=pwRGe0wAAAAJ"
     - label: "ORCID"
       icon: "fab fa-orcid"
-      url: "{https://orcid.org/0000-0002-0552-0967"
+      #url: "https://orcid.org/0000-0002-0552-0967"
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
-      url: "https://www.researchgate.net/profile/Cesar-Guzman-Alvarez/research"
-
-
-
+      #url: "https://www.researchgate.net/profile/Cesar-Guzman-Alvarez/research"
 
 # Site Footer
 footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      #url: "https://www.linkedin.com/in/cguz/"
+      url: "cguz"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar-square"
-      #url: "https://scholar.google.com/citations?user=pwRGe0wAAAAJ"
+      url: "https://scholar.google.com/citations?user=pwRGe0wAAAAJ"
     - label: "ORCID"
       icon: "fab fa-orcid"
-      #url: "{https://orcid.org/0000-0002-0552-0967"
+      url: "https://orcid.org/0000-0002-0552-0967"
     - label: "ResearchGate"
       icon: "fab fa-researchgate"
-      #url: "https://www.researchgate.net/profile/Cesar-Guzman-Alvarez/research"
+      url: "https://www.researchgate.net/profile/Cesar-Guzman-Alvarez/research"
     - label: "GitHub"
       icon: "fab fa-github"
-      #url: "https://github.com/cguz"
+      url: "cguz"
 
 
 # Reading Files
@@ -151,7 +153,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
