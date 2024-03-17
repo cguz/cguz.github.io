@@ -17,6 +17,8 @@ url                      : "https://cguz.github.io" # the base hostname & protoc
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cguz/cguz.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
+github: [metadata]
+
 # settings for author profile
 
 
