@@ -40,4 +40,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Updating the eventmachine
-gem 'eventmachine', '~> 1.2', '>= 1.2.7'
+gem 'eventmachine', '~> 1.2', '>= 1.2.6'
