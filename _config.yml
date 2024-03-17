@@ -7,7 +7,7 @@
 
 # Build settings
 theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -153,7 +153,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
