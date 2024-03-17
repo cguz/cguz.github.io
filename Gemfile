@@ -13,7 +13,7 @@ gem "minima", "~> 2.5"
 
 # Theme
 gem "jekyll-remote-theme"
-gem "minimal-mistakes-jekyll"
+#gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache"
 gem "jekyll-paginate"
 
