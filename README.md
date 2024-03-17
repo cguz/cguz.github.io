@@ -1,3 +1,17 @@
+[website]: https://cguz.github.io
+
+<!-- Jekyll -->
+[jekyll]: https://jekyllrb.com/
+[jekyll-team]: https://jekyllrb.com/team/
+
+<!-- Minimal Mistakes -->
+[minimal-mistakes]: https://mmistakes.github.io/minimal-mistakes/
+[mmistakes]: https://github.com/mmistakes
+
+<!-- GitHub -->
+[pages]: https://pages.github.com/
+[github]: https://github.com
+
 # Cesar Guzman Website
 
 This repository can be found under [cguz.github.io][website].
