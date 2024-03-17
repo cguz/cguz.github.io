@@ -41,3 +41,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Updating the eventmachine
 gem 'eventmachine', '~> 1.2', '>= 1.2.7'
+
+gem 'sass-embedded', '~> 1.72'

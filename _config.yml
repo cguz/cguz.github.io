@@ -42,6 +42,7 @@ author:
   #github                   : cguz
   #linkedin                 : cguz
   email                    : cguzwork@cguz.org
+  baseurl                  : "" # the subpath of your site, e.g. /blog
   url                      : "https://cguz.github.io" # the base hostname & protocol for your site e.g. 
   links:
     - label: "Google Scholar"
