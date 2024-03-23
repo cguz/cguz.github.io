@@ -1,0 +1,8 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Research"
+    url: /research/
+    children: 
+      - title: "Papers"
+        url: /portfolio/papers/
