@@ -226,17 +226,17 @@ defaults:
       toc_label: "Contents"
       read_time: false
       comments: true
-  # portfolio
+  # research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       author_profile: false
       excerpt: ""
       sidebar:
-        nav: "portfolio"
+        nav: "research"
 
 # collections
 collections:
-  portfolio:
+  research:
     output: true
