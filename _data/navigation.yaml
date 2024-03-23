@@ -3,6 +3,16 @@ main:
     url: /
   - title: "Research"
     url: /research/
+
+# sidebar for research
+research:
+  - title: "Publications"
     children: 
-      - title: "Papers"
-        url: /portfolio/papers/
+      - title: "Publications"
+        url: /research/publications/
+        
+  - title: "Master"
+    children: 
+      - title: "Advisor"
+        url: /research/master/advisor/
+  
