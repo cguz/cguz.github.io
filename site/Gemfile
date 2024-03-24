@@ -18,6 +18,7 @@ gem "jekyll-include-cache"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
 gem "jekyll-gist"
+# gem "faraday-retry"
 # gem "nokogiri", "~> 1.10.10"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
