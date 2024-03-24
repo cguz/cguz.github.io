@@ -79,6 +79,9 @@ footer:
       icon: "fab fa-github"
       url: "https://github.com/cguz"
 
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : true # true, false (default)
 
 # Reading Files
 include:
@@ -197,7 +200,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
