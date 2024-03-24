@@ -1,7 +1,13 @@
 ---
 permalink: /research/master/advisor/
 date: 2024-03-23
-toc: true
+
+layout: single
+author_profile: true
+
+sidebar:
+  nav: "research"
+  
 ---
 
 # Publications

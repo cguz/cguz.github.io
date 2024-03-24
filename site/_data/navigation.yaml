@@ -6,13 +6,11 @@ main:
 
 # sidebar for research
 research:
-  - title: "Publications"
+  - title: "Research"
+    url: /research/
     children: 
       - title: "Publications"
         url: /research/publications/
-        
-  - title: "Master"
-    children: 
-      - title: "Advisor"
+      - title: "Master Advisor"
         url: /research/master/advisor/
   

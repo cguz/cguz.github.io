@@ -2,6 +2,12 @@
 permalink: /research/index.html
 date: 2024-03-23
 
+layout: single
+author_profile: true
+
+sidebar:
+  nav: "research"
+  
 feature_row:
   - alt: "Publications"
     title: "Publications"
