@@ -218,21 +218,9 @@ defaults:
       class: wide
       title: " "
       title_separator: "|"
-  # posts
-  - scope:
-      type: posts
-    values:
-      toc: true
-      toc_label: "Contents"
-      read_time: false
-      comments: true
   # research
   - scope:
-      path: ""
-      type: research
     values:
-      author_profile: false
-      excerpt: ""
       sidebar:
         nav: "research"
 
