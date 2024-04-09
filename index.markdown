@@ -9,9 +9,9 @@ layout: home
 <img src="{{ "/assets/images/cesar.png" | absolute_url }}"
 width="40%" hspace="20" align="right">
 
-I am a passionate researcher and software and system engineer with a Ph.D. in Artificial Intelligence at the Polytechnic University of Valencia, Spain. My expertise bridges the fields of multi-agent planning & execution, machine learning, and space.
+I am a passionate researcher, software and system engineer with a Ph.D. in Artificial Intelligence at the Polytechnic University of Valencia, Spain. My expertise bridges the fields of multi-agent planning & execution, machine learning, and space.
 
-My mother tongues are Rust, Java and Python, but I also speak C/C++ and PDDL. Most recently, I worked remotely as a Senior AI and Software Engineer.
+My mother tongues are Rust, Java and Python, but I also speak C/C++, PDDL, between other languages. Most recently, I worked remotely as a Senior AI and Software Engineer.
 
 With over 18 years of professional experience I've tackled fascinating challenges in computer science, software, and system engineering.  Here are some highlights (check out my full [my portfolio](/portfolio/) for more):
 
