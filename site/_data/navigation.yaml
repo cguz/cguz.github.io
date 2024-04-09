@@ -2,7 +2,14 @@ main:
   - title: "Home"
     url: /
   - title: "Research"
-    url: /research/
+    url: /research/    
+    sublinks: 
+      - title: "Publications"
+        url: /research/publications/
+      - title: "Master Advisor"
+        url: /research/master/advisor/
+      - title: "Teaching"
+        url: /research/teaching/
 
 # sidebar for research
 research:
@@ -13,4 +20,6 @@ research:
         url: /research/publications/
       - title: "Master Advisor"
         url: /research/master/advisor/
+      - title: "Teaching"
+        url: /research/teaching/
   
