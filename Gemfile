@@ -13,7 +13,7 @@ gem "jekyll", "~> 4.3.1"
 
 # Theme
 # gem "jekyll-remote-theme"
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"
 gem "jekyll-include-cache"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
