@@ -61,8 +61,6 @@
 
 
 
-  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Cguz Innovation Feed">
-
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -106,7 +104,35 @@
           Cguz Innovation
           
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links">
+                
+                
+                    <li class="masthead__menu-item">
+                        <a href="/">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown ">
+                        <a  href="/research/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research    
+                          <i class="fa fa-caret-down fa-sm" aria-hidden="true"></i><span class="caret"></span></a>
+                        <ul class="dropdown-content">
+                            
+                                <li>
+                                    <a href="/research/publications/">    Publications</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/research/master/advisor/">    Master Advisor</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/research/teaching/">    Teaching</a>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -127,6 +153,7 @@
 <div id="main" role="main">
   
   <div class="sidebar sticky">
+  
   
 
 
@@ -152,90 +179,93 @@
     
   </div>
 
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Near ESA</span>
-        </li>
-      
+  
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Near ESA</span>
+          </li>
+        
 
-      
         
           
-        
+            
+          
+            
+          
+            
           
         
-          
+
         
-      
 
-      
+        
+          <li>
+            <a href="mailto:cguzwork@cguz.org" rel="me" class="u-email">
+              <meta itemprop="email" content="cguzwork@cguz.org" />
+              <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+            </a>
+          </li>
+        
 
-      
-        <li>
-          <a href="mailto:cguzwork@cguz.org" rel="me" class="u-email">
-            <meta itemprop="email" content="cguzwork@cguz.org" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
-          </a>
-        </li>
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
+        
 
-      
-
-      <!--
+        <!--
   <li>
     <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
 -->
-    </ul>
-  </div>
+      </ul>
+    </div>
+  
 </div>
+
 
   
   </div>
@@ -246,9 +276,26 @@
     
       <h1 id="page-title" class="page__title"> </h1>
     
-    
+    <h1 id="about-me">About Me</h1>
 
+<p><img src="http://localhost:4000/assets/images/cesar.png" width="40%" hspace="20" align="right" /></p>
 
+<p>I am a passionate researcher, software and system engineer with a Ph.D. in Artificial Intelligence at the Polytechnic University of Valencia, Spain. My expertise bridges the fields of multi-agent planning &amp; execution, machine learning, and space.</p>
+
+<p>My mother tongues are Rust, Java and Python, but I also speak C/C++, PDDL, between other languages. Most recently, I worked remotely as a Senior AI and Software Engineer.</p>
+
+<p>With over 18 years of professional experience I’ve tackled fascinating challenges in computer science, software, and system engineering.  Here are some highlights (check out my full <a href="/portfolio/">my portfolio</a> for more):</p>
+
+<ul>
+  <li>I use AI to solve complex problems in the space sector, utilizing Model-Based Systems Engineering (MBSE) approaches. I even led projects like the SaaSy ML for OPS-SAT and currently manage the technical aspects of a cool ESA Planning System.</li>
+  <li>I research and deploy cutting-edge AI solutions for spacecraft, like reducing image noise by a whopping 98% for OPS-SAT using Generative Adversarial Networks (GANs).</li>
+  <li>I am passionate about AI Responsible and Secure, and I put that into practice with projects like training Generative AI models (such as, Mistral, Flan-T5, Llama2, GPT-J-6b) on GPUs using SLURM and following the MLOps methodology.</li>
+  <li>I contribute to cutting-edge projects for NASA, ESA and EU, focusing on applying multi-agent planning and execution, AI, and improving MBSE architectures and ontologies for space missions using ML.</li>
+</ul>
+
+<p>I am a strong advocate for helping European organizations leverage the power of data through AI.</p>
+
+<!--
 <h3 class="archive__subtitle">Recent Posts</h3>
 
 
@@ -256,32 +303,11 @@
 
 <div class="entries-list">
   
-    
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/jekyll/update/welcome-to-jekyll/" rel="permalink">Welcome to Jekyll!
-</a>
-      
-    </h2>
-    
-
-
-    <p class="archive__item-excerpt" itemprop="description">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...</p>
-  </article>
-</div>
-
-  
 </div>
 
 
 
-
+-->
   </div>
 </div>
     </div>
@@ -316,13 +342,11 @@
         
       
         
-          <li><a href="cguz" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+          <li><a href="https://github.com/cguz" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
         
       
     
 
-    
-      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
   </ul>
 </div> 
