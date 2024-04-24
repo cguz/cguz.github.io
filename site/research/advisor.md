@@ -12,40 +12,72 @@ sidebar:
 
 # Master Advisor
 
-## Master en Inteligencia Artificial
+## Master's Degree in Artificial Intelligence
 
-- Detección de exoplanetas con redes neuronales usando la base de datos de la misión Keppler. Héctor Martín Solís, Prof. Dr. Cesar Guzman. 9/10. Dissertation: 2020-12-01.
+- Miguel Mejia
+- Pedro Luis
+- Raul Peinado
+- Roberto Saul Cova
+- Diogo Rivero
+- Javier Garcia Ripoll
+- Jose Calvo
+- Raquel Zarraoa
+- Javier Gaton Herrguedas
 
-- Actualización de caminos y construcciones del SIGPAC en el municipio de Lorca (Murcia). Javier Jimenez Ochoa, Prof. Dr. Cesar Guzman. 8.4/10. Dissertation: 2020-12-01. 
+### 2024
 
-- Clasificar automáticamente Perfiles de los jugadores de Fútbol. Juan Ignacio Hurtado Cerrón, Prof. Dr. Cesar Guzman. 7/10. Dissertation: 2020-12-01.
+- Exploring the Frontiers of Interactive AI with Large Language Models. Etxezarraga Hernández Mikel. Dissertation: 2024.
 
-- Detección de Similitudes entre Galaxias Empleando Inteligencia Artificial. Víctor Hugo Zamora Abarca, Prof. Dr. Cesar Guzman. 7.3/10. Dissertation: 2020-07-22. 
+- Application of LLM models for data extraction in public writing documents. Angel Guijarro. Dissertation: 2024.
 
-- Detección automática de tatuajes empleando redes neuronales convolucionales. Gabriel Eduardo Capparelli Cucarella, Prof. Dr. Cesar Guzman. 8.5/10. Dissertation: 2020-07-22. 
+- Application of reinforcement learning techniques in air navigation simulations. Francisco Javier Cuesta Arija. Dissertation: 2024.
 
-- Obstacle Tower Challenge. Carmen Raposo Jimenez, Prof. Dr. Cesar Guzman. 9/10. Dissertation: 2020-07-27.
+- Design of an NLP-based solution for text summarization. Daniel Monescillo. Dissertation: 2024.
 
-- Optimización de la clasificación de reputación. Ramón Luján Crespo, Prof. Dr. Cesar Guzman. 9/10. Dissertation: 2020-07-27.
+### 2023
 
-- Reconocimiento de manos empleando técnicas de aprendizaje automático. Andrea Álvarez Rodríguez, Prof. Dr. Cesar Guzman. 7.6/10. Dissertation: 2020-05-13.
+- Detecting space anomalies with self-supervised learning. Carlos de la Fuente Torres. Dissertation: 2023.
 
-## Master de Big Data y Data Science
+### 2020 - 2022
 
-- Detección de exoplanetas con redes neuronales usando la base de datos de la misión TESS. Irene Delgado Borrego, Prof. Dr. Cesar Guzman. 9/10. Dissertation: 2020-07-08.
+- Sequencing Cosmic Evolution in Active Nucleus Galaxies. Manuel David Moras Acosta. Dissertation: 2022. *
 
-- Predicción de tendencia de acciones basado en métodos de aprendizaje automático. Manuel Briceno, Prof. Dr. Cesar Guzman. 8/10. Dissertation: 2020-07-08.
+- Comparison and Implementation of a GPT-3 Chatbot for the Banking Sector. Brenda Costa Bojanich. Dissertation: 2021-2022.
 
-- Detectar patrones de organización de nubes a partir de imágenes satelitales. Miguel Ángel Castro Ríos, Prof. Dr. Cesar Guzman. 7/10. Dissertation: 2020-06-03.
+- Detecting Exoplanets in Gaia data using Artificial Intelligence. Asier Abreu Aramburu. Dissertation: 2020-2021. *
 
-- Detección de similitudes entre galaxias empleando algoritmos de machine learning. Miguel López Marín, Prof. Dr. Cesar Guzman. 8/10. Dissertation: 2020-05-06.
+- Detection of exoplanets with neural networks using the Kepler mission database. Héctor Martín Solís. 9/10. Dissertation: 2020-12-01. *
 
-## Máster Universitario en Seguridad Informática
+- Updating roads and constructions of SIGPAC in the municipality of Lorca (Murcia). Javier Jimenez Ochoa. 8.4/10. Dissertation: 2020-12-01.
 
-- Herramienta para la Evaluación Automatizada y Pasiva de Vulnerabilidades de Dispositivos IoT. Prof. Dr. Cesar Guzman. 7.5/10.
+- Automatically Classify Soccer Player Profiles. Juan Ignacio Hurtado Cerrón. 7/10. Dissertation: 2020-12-01.
 
-- Configuración Segura de Sistema Android en Base a la Guía CCN-STIC 453E. Prof. Dr. Cesar Guzman. 7.5/10.
+- Detection of Similarities between Galaxies Using Artificial Intelligence. Víctor Hugo Zamora Abarca. 7.3/10. Dissertation: 2020-07-22. *
 
-- Metodología para el Análisis Forense de Dispositivos IoT. Prof. Dr. Cesar Guzman. 6.0/10.
+- Automatic tattoo detection using convolutional neural networks. Gabriel Eduardo Capparelli Cucarella. 8.5/10. Dissertation: 2020-07-22.
 
-- Metodología de Defensa frente a Fraudes Cibernéticos en Entidades Bancarias del Ecuador. Prof. Dr. Cesar Guzman.
+- Obstacle Tower Challenge. Carmen Raposo Jimenez. 9/10. Dissertation: 2020-07-27.
+
+- Optimize Reputation classification. Ramón Luján Crespo. 9/10. Dissertation: 2020-07-27.
+
+- Hand recognition using machine learning techniques. Andrea Álvarez Rodríguez. 7.6/10. Dissertation: 2020-05-13.
+
+## Master's Degree in Big Data and Data Science
+
+- Detection of exoplanets with neural networks using the TESS mission database. Irene Delgado Borrego. 9/10. Dissertation: 2020-07-08.
+
+- Stock price trend prediction based on machine learning methods. Manuel Briceno. 8/10. Dissertation: 2020-07-08.
+
+- Detecting cloud organization patterns from satellite images. Miguel Ángel Castro Ríos. 7/10. Dissertation: 2020-06-03.
+
+- Detection of similarities between galaxies using machine learning algorithms. Miguel López Marín. 8/10. Dissertation: 2020-05-06. * 
+
+### Master's Degree in Computer Security
+
+- Tool for Automated and Passive Vulnerability Assessment of IoT Devices. Prof. Dr. Cesar Guzman. 7.5/10.
+
+- Secure Android System Configuration Based on CCN-STIC 453E Guide. Prof. Dr. Cesar Guzman. 7.5/10.
+
+- Methodology for Forensic Analysis of IoT Devices. Prof. Dr. Cesar Guzman. 6.0/10.
+
+- Methodology for Defense against Cyber Fraud in Ecuadorian Banking Entities. Prof. Dr. Cesar Guzman.

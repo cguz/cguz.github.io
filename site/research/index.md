@@ -23,8 +23,8 @@ feature_row:
     btn_class: "btn--primary"	
   - alt: "Teaching"
     title: "Teaching"
-    excerpt: "Teaching on the Master of AI, Big Data and CyberSecurity."
-    url: "/research/master/teaching/"
+    excerpt: "Teaching on the Master of AI and Big Data."
+    url: "/research/teaching/"
     btn_label: "Read More"
     btn_class: "btn--primary"	
 ---
