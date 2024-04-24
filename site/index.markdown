@@ -13,7 +13,7 @@ I am a passionate researcher, software and system engineer with a Ph.D. in Artif
 
 My mother tongues are Rust, Java and Python, but I also speak C/C++, PDDL, between other languages. Most recently, I worked remotely as a Senior AI and Software Engineer.
 
-With over 18 years of professional experience I've tackled fascinating challenges in computer science, software, and system engineering.  Here are some highlights (check out my full [my portfolio](/portfolio/) for more):
+With over 18 years of professional experience I've tackled fascinating challenges in computer science, software, and system engineering.  Here are some highlights (check out my full [my portfolio] for more):
 
 - I use AI to solve complex problems in the space sector, utilizing Model-Based Systems Engineering (MBSE) approaches. I even led projects like the SaaSy ML for OPS-SAT and currently manage the technical aspects of a cool ESA Planning System.
 - I research and deploy cutting-edge AI solutions for spacecraft, like reducing image noise by a whopping 98% for OPS-SAT using Generative Adversarial Networks (GANs). 

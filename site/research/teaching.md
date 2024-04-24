@@ -14,30 +14,27 @@ sidebar:
 
 ## VIU 
 
-### Master Universitario en Inteligencia Artificial
+### Master's Degree in Artificial Intelligence
 
-- Trabajo de Fin de Master. Curso Academico: 2020-2021 (120h)
+- Master's Thesis. 2020-2021 (120 hours)
 
-### Master en Big Data y Data Science
+### Master's Degree in Big Data and Data Science
 
-- Seminario: Introduccion Herramientas Python ML. Curso Academico: 2020
+- Seminar: Introduction to Python ML Tools. 2020
 
 ## UNIR 
 
-### Master Universitario en Inteligencia Artificial
+### Master's Degree in Artificial Intelligence
 
-- Razonamiento y Planificación Automática. Categoria: Nivel IV.  Curso Academico: 2019-2020 (180h), 2020-2021 (109h)
+- Automatic Reasoning and Planning. Level IV. 2019-2020 (180 hours). 2020-2021 (109 hours)
+- Artificial Cognitive Systems. Level IV. 2019-2020 (104 hours)
+- Master's Thesis. Level IV. 2019-2020 (390 hours)
 
-- Sistemas Cognitivos Artificiales. Categoria: Nivel IV. Curso Academico: 2019-2020 (104h)
+### Master's Degree in Computer Security
 
-- Trabajo de Fin de Master. Categoria: Nivel IV. Curso Academico: 2019-2020 (390h)
+- Master's Thesis. Level IV. 2019-2020 (40 hours)
 
-### Master Universitario en Seguridad Informatica
+### Bachelor's Degree in Computer Engineering
 
-- Trabajo de Fin de Master. Categoria: Nivel IV. Curso Academico: 2019-2020 (40h)
-
-### Grado en Ingenieria Informatica
-
-- Sistemas Operativos. Categoria: Nivel IV. Curso Academico: 2019-2020
-
-- Sistemas Operativos Avanzados. Categoria: Nivel IV. Curso Academico: 2019-2020 (60h)
+- Operating Systems. Level IV. 2019-2020
+- Advanced Operating Systems. Level IV. 2019-2020 (60 hours)
