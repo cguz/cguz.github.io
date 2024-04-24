@@ -36,7 +36,9 @@ sidebar:
 
 ### 2023
 
-- Detecting space anomalies with self-supervised learning. Carlos de la Fuente Torres. Dissertation: 2023.
+- Detecting space anomalies with self-supervised learning. Carlos de la Fuente Torres. Dissertation: 2023. *s
+
+- Tool for automated detection and classification of deforestation using satellite imagery and deep learning techniques. Nestor Campos. Dissertation: 2023. *
 
 ### 2020 - 2022
 
