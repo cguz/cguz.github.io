@@ -14,37 +14,52 @@ sidebar:
 
 ## Master's Degree in Artificial Intelligence
 
-- Miguel Mejia
-- Pedro Luis
-- Raul Peinado
-- Roberto Saul Cova
-- Diogo Rivero
-- Javier Garcia Ripoll
-- Jose Calvo
-- Raquel Zarraoa
-- Javier Gaton Herrguedas
+- Miguel Mejia. Computer vision, clasificar galaxias. ​Camaras de seguridad.
+- Raul Peinado. Mining detector: earthrise-media/mining-detector (github.com)
+- Roberto Saul Cova. Aprendizaje por refuerzo para acoplar de forma autónoma una nave espacial con la Estación Espacial Internaciona.
+- Javier Gaton Herrguedas. Predicción de la posición de las nubes a partir de secuencias de imágenes del cielo.
+
+- Diogo Rivero. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
+- Javier Garcia Ripoll. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
+- Jose Calvo. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
+- Raquel Zarraoa. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
+- Pedro Luis. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
 
 ### 2024
 
-- Exploring the Frontiers of Interactive AI with Large Language Models. Etxezarraga Hernández Mikel. Dissertation: 2024.
+- Exploring the Frontiers of Interactive AI with Large Language Models. Etxezarraga Hernández Mikel. 
 
-- Application of LLM models for data extraction in public writing documents. Angel Guijarro. Dissertation: 2024.
+- Application of LLM models for data extraction in public writing documents. Angel Guijarro. 
 
-- Application of reinforcement learning techniques in air navigation simulations. Francisco Javier Cuesta Arija. Dissertation: 2024.
+- Application of reinforcement learning techniques in air navigation simulations. Francisco Javier Cuesta Arija. 
 
-- Design of an NLP-based solution for text summarization. Daniel Monescillo. Dissertation: 2024.
+- Design of an NLP-based solution for text summarization. Daniel Monescillo. 
 
 ### 2023
 
-- Detecting space anomalies with self-supervised learning. Carlos de la Fuente Torres. Dissertation: 2023. *s
+- Detecting space anomalies with self-supervised learning. Carlos de la Fuente Torres. *
 
-- Tool for automated detection and classification of deforestation using satellite imagery and deep learning techniques. Nestor Campos. Dissertation: 2023. *
+- Tool for automated detection and classification of deforestation using satellite imagery and deep learning techniques. Nestor Campos. *
 
-### 2020 - 2022
+### 2022
 
-- Sequencing Cosmic Evolution in Active Nucleus Galaxies. Manuel David Moras Acosta. Dissertation: 2022. *
+- Sequencing Cosmic Evolution in Active Nucleus Galaxies. Manuel David Moras Acosta. 7.5/10. *
 
-- Comparison and Implementation of a GPT-3 Chatbot for the Banking Sector. Brenda Costa Bojanich. Dissertation: 2021-2022.
+- Comparison and Implementation of a GPT-3 Chatbot for the Banking Sector. Brenda Costa Bojanich. 9.5/10. 
+
+- Aprendizaje por refuerzo para acoplar de forma autónoma una nave espacial con la Estación Espacial Internaciona. Daniel Perez. 8.5/10. *
+
+- Aprendizaje por refuerzo para controlar un dron de carreras en el entorno de simulación AirSim. Jorge Armando Gonzalez. 8.3/10.
+
+- Monitorización de tormentas geomagnéticas aplicando técnicas de detección de anomalías mediante aprendizaje no supervisado. Damian Mateos Garcia. 6/10.
+
+- Integrando Ingeniería de Sistemas Basada en Modelos con Aprendizaje automático empleando datos satelitales. Manuel Romero Martinez. 5.5/10.
+
+- Detección de anomalía no supervisada con líneas temporales univariadas aplicadas a datos satelitales. Jorge Vergara Roa. 5.5/10. 
+
+- Predicción de incendios mediante técnicas de Machine Learning y Deep Learning. Ignacio Martinez. 5/10. 
+
+### 2020 - 2021
 
 - Detecting Exoplanets in Gaia data using Artificial Intelligence. Asier Abreu Aramburu. Dissertation: 2020-2021. *
 
@@ -66,13 +81,21 @@ sidebar:
 
 ## Master's Degree in Big Data and Data Science
 
-- Detection of exoplanets with neural networks using the TESS mission database. Irene Delgado Borrego. 9/10. Dissertation: 2020-07-08.
+### 2024
 
-- Stock price trend prediction based on machine learning methods. Manuel Briceno. 8/10. Dissertation: 2020-07-08.
+- León Lara, Manuel : T-055 Digital Twin to support drone/space big data generation
 
-- Detecting cloud organization patterns from satellite images. Miguel Ángel Castro Ríos. 7/10. Dissertation: 2020-06-03.
+- García Armario, Jesús : T-056 AI for the space sector,
 
-- Detection of similarities between galaxies using machine learning algorithms. Miguel López Marín. 8/10. Dissertation: 2020-05-06. * 
+### 2020
+
+- Detection of exoplanets with neural networks using the TESS mission database. Irene Delgado Borrego. 9/10. 
+
+- Stock price trend prediction based on machine learning methods. Manuel Briceno. 8/10. 
+
+- Detecting cloud organization patterns from satellite images. Miguel Ángel Castro Ríos. 7/10. 
+
+- Detection of similarities between galaxies using machine learning algorithms. Miguel López Marín. 8/10. * 
 
 ### Master's Degree in Computer Security
 
