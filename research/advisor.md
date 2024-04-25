@@ -27,7 +27,7 @@ sidebar:
 
 ### 2024
 
-- Exploring the Frontiers of Interactive AI with Large Language Models. Etxezarraga Hernández Mikel. 
+- Exploring the Frontiers of Interactive AI with Large Language Models. Etxezarraga Hernández Mikel. 9.6/10.
 
 - Application of LLM models for data extraction in public writing documents. Angel Guijarro. 
 
