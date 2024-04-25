@@ -18,7 +18,6 @@ gem "jekyll-include-cache"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
 gem "jekyll-gist"
-gem 'jekyll-scholar'
 # gem "faraday-retry"
 # gem "nokogiri", "~> 1.10.10"
 
