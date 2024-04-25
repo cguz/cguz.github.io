@@ -7,8 +7,7 @@ author_profile: true
 
 sidebar:
   nav: "research"
-  
----
 
-# Publications
+title: Publications
+---
 
