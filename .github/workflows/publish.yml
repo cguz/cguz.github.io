@@ -1,54 +1,24 @@
-# This workflow defines a build and publish process for frontend and backend code
-
-name: Build and Publish
+name: Deploy Site
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ deploy ]  # Trigger on pushes to the deploy branch
-  pull_request:  # Trigger on pull requests
+    paths-ignore:
+    - '.github/**' # Ignore changes towards the .github directory
+    branches:
+    - development # Only trigger on the development branch
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Run on Ubuntu virtual machines
-
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3  # Checkout code from repository
-
-      # Build Frontend (React)
-      - name: Use Node.js 18.19.0
-        uses: actions/setup-node@v3
-        with:
-          node-version: 118.19.0  # Adjust if needed for your project
-
-      # General 
-      - name: Create folders
-        run: mkdir final_build
-
-      # Build Frontend (React)
-      - name: Install dependencies (frontend)
-        working-directory: src/frontend/  # Change directory for frontend build
-        run: npm install  # Install frontend dependencies
-
-      - name: Build frontend
-        working-directory: src/frontend/
-        run: npm run build  # Run build command for frontend (replace with yours)
-
-      - name: Move frontend build artifacts
-        run: mv build ../../final_build/frontend  # Move build folder to root as "frontend"
-
-      # Build Backend (Node.js Express)
-      - name: Install dependencies (backend)
-        working-directory: src/backend/  # Change directory for backend build
-        run: npm install  # Install backend dependencies
-
-      - name: Build backend  # Replace with your build command if needed
-        working-directory: src/backend/
-        run: npm run build  # Run build command for backend (replace with yours)
-
-      - name: Move backend build artifacts
-        run: mv build ../../final_build/backend  # Move build folder to root as "backend"
-
-      # Moving final dir
-      - name: Moving final dir
-      - run: rm -rf src/
-      - run: mv final_build/* .
+    - name: Perform Checkout
+      uses: actions/checkout@v2
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
+        publish_branch: master
+        enable_jekyll: true
+        cname: cguz.github.io # Uncomment this option to keep the custom domain
