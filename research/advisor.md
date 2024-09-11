@@ -24,6 +24,7 @@ sidebar:
 - Jose Calvo. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
 - Raquel Zarraoa. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
 - Pedro Luis. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
+- Alberto Escriba Castro. Detección de Anomalías e Interpretación en Lenguaje Natural de Telemetría de Satélite
 
 ### 2024
 
@@ -86,6 +87,12 @@ sidebar:
 - León Lara, Manuel : T-055 Digital Twin to support drone/space big data generation
 
 - García Armario, Jesús : T-056 AI for the space sector,
+
+- Mauricio Cantalapiedra. Generación de datos sintéticos y detección de anomalías sobre datos de telemetría de un RPAS.
+
+- Jorge Alberto. 
+
+- Julen. Remaining Useful Life de una flota de vehículos sensorizados.
 
 ### 2020
 
