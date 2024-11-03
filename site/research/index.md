@@ -31,7 +31,6 @@ feature_row:
 
 # Research
 
-Here you'll find summaries of the major publications and master advisor I've done over the years, which 
-are representative of my skills and interests. These works span everything to apply AI in the real world.
+Here you'll find summaries of the major publications and master advisor I've done over the years, which are representative of my skills and interests. These works span everything to apply AI in the real world.
 
 {% include feature_row %}
