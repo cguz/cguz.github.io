@@ -1,3 +1,11 @@
+---
+title: "Understanding Trait Objects (dyn Trait)"
+date: 2024-12-15
+categories: [programming, rust]
+tags: [rust, traits, programming, tutorial]
+excerpt: "Learn how to use trait objects in Rust for dynamic dispatch and polymorphism"
+---
+
 # Understanding Trait Objects (dyn Trait)
 
 In Rust, trait objects allow you to work with different concrete types through a shared trait interface at runtime. This is useful when you want to abstract over multiple types that implement the same trait. Trait objects are created using the dyn Trait syntax, where Trait is the name of the trait.
