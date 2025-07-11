@@ -10,30 +10,37 @@ sidebar:
   
 ---
 
+# Tribunales:
+
+-	5 tribunales 29.11.2024
+
+
 # Master Advisor
 
 ## Master's Degree in Artificial Intelligence
 
-- Miguel Mejia. Computer vision, clasificar galaxias. ​Camaras de seguridad.
-- Raul Peinado. Mining detector: earthrise-media/mining-detector (github.com)
-- Roberto Saul Cova. Aprendizaje por refuerzo para acoplar de forma autónoma una nave espacial con la Estación Espacial Internaciona.
-- Javier Gaton Herrguedas. Predicción de la posición de las nubes a partir de secuencias de imágenes del cielo.
+### 2025
 
-- Diogo Rivero. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
-- Javier Garcia Ripoll. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
-- Jose Calvo. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
-- Raquel Zarraoa. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
-- Pedro Luis. Mitigating Rogue Drone Threats with Agile Autonomous Swarms
-- Alberto Escriba Castro. Detección de Anomalías e Interpretación en Lenguaje Natural de Telemetría de Satélite
+- Padilla Expósito, Esther 
+- Maria Dolores Cantero
+- Jair Francisco Flores
+- Javier San Lorenzo Gomez
+- Enrique Diaz de la iglesia
+- Pablo Oñate 
+- Ximo Sanz Tornero 
+- Francisco Javier Gallucci Vivas
+- Castiblanco Alexander
 
 ### 2024
 
+- Eduardo Londonio
+- Mining detector: earthrise-media/mining-detector. Raul Peinado.
+- Aprendizaje por refuerzo para acoplar de forma autónoma una nave espacial con la Estación Espacial Internaciona. Roberto Saul Cova.
+- Predicción de la posición de las nubes a partir de secuencias de imágenes del cielo. Javier Gaton Herrguedas.
+- Detección de Anomalías e Interpretación en Lenguaje Natural de Telemetría de Satélite. Alberto Escriba Castro.
 - Exploring the Frontiers of Interactive AI with Large Language Models. Etxezarraga Hernández Mikel. 
-
 - Application of LLM models for data extraction in public writing documents. Angel Guijarro. 
-
 - Application of reinforcement learning techniques in air navigation simulations. Francisco Javier Cuesta Arija. 
-
 - Design of an NLP-based solution for text summarization. Daniel Monescillo. 
 
 ### 2023
