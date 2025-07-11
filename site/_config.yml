@@ -220,6 +220,18 @@ defaults:
       class: wide
       title: " "
       title_separator: "|"
+  # posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
   # research
   - scope:
       type: research
