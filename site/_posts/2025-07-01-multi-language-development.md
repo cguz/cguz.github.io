@@ -1,5 +1,10 @@
 ---
 title: "Multi-Language Development: When to Use Rust, Python, and Java"
+date: 2025-01-10
+categories: [programming, languages]
+tags: [rust, python, java, programming-languages, software-engineering]
+excerpt: "A practical guide to choosing the right programming language for your project based on 18 years of experience"
+---le: "Multi-Language Development: When to Use Rust, Python, and Java"
 date: 2025-07-01
 categories: [programming, languages]
 tags: [rust, python, java, programming-languages, software-engineering]
