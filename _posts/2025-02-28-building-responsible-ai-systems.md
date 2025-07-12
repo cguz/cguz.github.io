@@ -1,10 +1,5 @@
 ---
 title: "Building Responsible AI Systems: Lessons from 18 Years in Tech"
-date: 2024-12-28
-categories: [ai, ethics]
-tags: [responsible-ai, ethics, machine-learning, best-practices]
-excerpt: "Reflecting on key principles and practices for developing AI systems that are both powerful and responsible"
----le: "Building Responsible AI Systems: Lessons from 18 Years in Tech"
 date: 2025-02-28
 categories: [ai, ethics]
 tags: [responsible-ai, ethics, machine-learning, best-practices]
