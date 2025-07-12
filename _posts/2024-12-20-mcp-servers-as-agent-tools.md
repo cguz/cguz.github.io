@@ -8,4 +8,4 @@ excerpt: "Exploring how Model Context Protocol servers can be used as tools for 
 
 # MCP Servers as tools
 
-![MCP Agent Architecture](image.png)
+![MCP Agent Architecture](/assets/images/mcp-agent-architecture.png)
