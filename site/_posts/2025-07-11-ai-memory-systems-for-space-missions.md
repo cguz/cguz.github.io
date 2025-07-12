@@ -1,5 +1,5 @@
 ---
-title: "AI Memory Systems for Space Missions: Why Remembering Matters Beyond Earth"
+title: "AI Memory Systems for Space Missions: Why Remembering?"
 date: 2025-07-11
 categories: [ai, space]
 tags: [ai-agents, memory-systems, space-technology, autonomous-systems, mission-critical]
