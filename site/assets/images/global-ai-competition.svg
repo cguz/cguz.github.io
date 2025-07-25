@@ -1,0 +1,73 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Global AI Competition Landscape</text>
+  
+  <!-- World map simplified outline -->
+  <g transform="translate(100, 80)">
+    <!-- USA (highlighted) -->
+    <path d="M50 150 L200 150 L200 250 L50 250 Z" fill="#1a73e8" stroke="#0d47a1" stroke-width="2"/>
+    <text x="125" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">USA</text>
+    <text x="125" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">AI Leader</text>
+    
+    <!-- China -->
+    <path d="M450 180 L580 180 L580 260 L450 260 Z" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <text x="515" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">China</text>
+    <text x="515" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Main Competitor</text>
+    
+    <!-- Europe -->
+    <path d="M250 120 L380 120 L380 200 L250 200 Z" fill="#f39c12" stroke="#e67e22" stroke-width="2"/>
+    <text x="315" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Europe</text>
+    <text x="315" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Regulatory Focus</text>
+    
+    <!-- Rest of World -->
+    <circle cx="200" cy="320" r="40" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2"/>
+    <text x="200" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Others</text>
+    
+    <circle cx="500" cy="320" r="40" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2"/>
+    <text x="500" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Emerging</text>
+  </g>
+  
+  <!-- Competition arrows -->
+  <g stroke="#e74c3c" stroke-width="3" fill="none" marker-end="url(#arrowhead)">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+      </marker>
+    </defs>
+    <path d="M300 280 Q400 250 550 280"/>
+    <path d="M550 280 Q400 310 300 280"/>
+  </g>
+  
+  <!-- Key strategic elements -->
+  <g transform="translate(50, 420)">
+    <rect x="0" y="0" width="700" height="120" fill="#ecf0f1" stroke="#bdc3c7" rx="10"/>
+    
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Strategic Competition Elements:</text>
+    
+    <!-- Economic -->
+    <circle cx="50" cy="60" r="15" fill="#3498db"/>
+    <text x="80" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Economic Competitiveness</text>
+    <text x="80" y="70" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Investment attraction, job creation, global hub status</text>
+    
+    <!-- Security -->
+    <circle cx="350" cy="60" r="15" fill="#e74c3c"/>
+    <text x="380" y="55" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">National Security</text>
+    <text x="380" y="70" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Technological sovereignty, defense applications</text>
+    
+    <!-- Standards -->
+    <circle cx="50" cy="100" r="15" fill="#f39c12"/>
+    <text x="80" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Global Standards</text>
+    <text x="80" y="110" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Technology export, ally coordination, value alignment</text>
+    
+    <!-- Workforce -->
+    <circle cx="350" cy="100" r="15" fill="#27ae60"/>
+    <text x="380" y="95" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Workforce Development</text>
+    <text x="380" y="110" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Retraining programs, education initiatives</text>
+  </g>
+  
+  <!-- Quote -->
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-style="italic" fill="#7f8c8d">"Whoever has the largest AI ecosystem will set the global standards"</text>
+</svg>
