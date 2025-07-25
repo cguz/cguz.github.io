@@ -1,0 +1,72 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">Three Pillars of AI Leadership</text>
+  
+  <!-- Pillar 1: Innovation -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="200" height="300" fill="#e74c3c" rx="15"/>
+    <rect x="10" y="10" width="180" height="280" fill="#c0392b" rx="10"/>
+    
+    <!-- Icon area -->
+    <circle cx="100" cy="80" r="30" fill="#ffffff" opacity="0.2"/>
+    <polygon points="100,60 120,90 80,90" fill="#ffffff"/>
+    <rect x="85" y="90" width="30" height="20" fill="#ffffff"/>
+    
+    <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Accelerating</text>
+    <text x="100" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Innovation</text>
+    
+    <text x="100" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Regulatory Reform</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Private Sector Input</text>
+    <text x="100" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Objective AI Systems</text>
+    <text x="100" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Barrier Removal</text>
+  </g>
+  
+  <!-- Pillar 2: Infrastructure -->
+  <g transform="translate(300, 80)">
+    <rect x="0" y="0" width="200" height="300" fill="#f39c12" rx="15"/>
+    <rect x="10" y="10" width="180" height="280" fill="#e67e22" rx="10"/>
+    
+    <!-- Icon area -->
+    <circle cx="100" cy="80" r="30" fill="#ffffff" opacity="0.2"/>
+    <rect x="85" y="65" width="30" height="20" fill="#ffffff"/>
+    <rect x="75" y="85" width="10" height="15" fill="#ffffff"/>
+    <rect x="115" y="85" width="10" height="15" fill="#ffffff"/>
+    
+    <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Building AI</text>
+    <text x="100" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Infrastructure</text>
+    
+    <text x="100" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Data Centers</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Workforce Development</text>
+    <text x="100" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Energy Infrastructure</text>
+    <text x="100" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Fast Permitting</text>
+  </g>
+  
+  <!-- Pillar 3: International Leadership -->
+  <g transform="translate(550, 80)">
+    <rect x="0" y="0" width="200" height="300" fill="#27ae60" rx="15"/>
+    <rect x="10" y="10" width="180" height="280" fill="#229954" rx="10"/>
+    
+    <!-- Icon area -->
+    <circle cx="100" cy="80" r="30" fill="#ffffff" opacity="0.2"/>
+    <circle cx="100" cy="80" r="15" fill="#ffffff"/>
+    <rect x="92" y="72" width="16" height="16" fill="#27ae60"/>
+    
+    <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">International</text>
+    <text x="100" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">Leadership</text>
+    
+    <text x="100" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• AI Export Strategy</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Global Standards</text>
+    <text x="100" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• National Security</text>
+    <text x="100" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">• Allied Partnerships</text>
+  </g>
+  
+  <!-- Foundation -->
+  <rect x="50" y="420" width="700" height="30" fill="#34495e" rx="5"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">90+ Federal Policy Actions</text>
+  
+  <!-- Footer -->
+  <text x="400" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Comprehensive Strategy for American AI Dominance</text>
+</svg>
