@@ -38,7 +38,6 @@ The plan's balanced approach of removing regulatory barriers while maintaining s
 
 ## Impact on the Space Sector: AI's Next Frontier
 
-
 The AI Action Plan's emphasis on infrastructure development, regulatory reform, and national security positioning has significant implications for the rapidly growing space AI sector. The space industry represents one of the most promising frontiers for AI applications, and this plan could accelerate its growth in several key ways:
 
 ### Space Infrastructure Development
