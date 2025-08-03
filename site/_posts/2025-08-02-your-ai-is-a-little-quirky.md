@@ -50,8 +50,6 @@ Here are two game-changing takeaways:
 
 - You've probably heard of "chain-of-thought" (CoT) prompting, where you ask the model to "think step-by-step." This makes it much smarter at complex reasoning but comes at a literal cost—every "thinking" token costs money and time. So, how much thought is enough? Too little, and the answer is wrong. Too much, and you're wasting money. For the first time, this paper provides a closed-form formula to calculate the optimal chain-of-thought length. It balances the benefit of more reasoning against the cost, telling you exactly how many steps are "just right." For businesses using LLMs at scale, this could save millions.
 
-![Optimal chain of thought](/assets/images/2025-08-02-coc.png)
-
 # A new kind of intelligence
 
 This research fundamentally reframes our understanding of LLMs. We’ve been trying to fit these new minds into old boxes, expecting them to behave like the idealized logicians from our textbooks. But they don't. They are something new.
