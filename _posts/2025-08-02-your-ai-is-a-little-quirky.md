@@ -16,7 +16,7 @@ For a true Bayesian reasoner, this is a cardinal sin. The order of the clues sho
 
 Finding a muddy footprint and then a dropped glove should lead a detective to the same conclusion as finding the glove and then the footprint. 
 
-![alt text](/assets/images/gloves.png)
+![alt text](/assets/images/2025-08-02-gloves.png)
 
 This discovery sent a shiver through the AI community. Was the incredible reasoning power of LLMs just a clever illusion? Were they fundamentally flawed?
 
@@ -30,9 +30,13 @@ So, how can they be so smart and so flawed at the same time?
 
 The authors resolve this paradox with a beautifully simple insight: Transformers, the architecture behind LLMs, were never designed to ignore order. In fact, they’re built to obsess over it. Every word you feed into a transformer gets a "positional encoding" — think of it as a seat number in a theater. 
 
+![Man bites dog in positional encoding](/assets/images/2025-08-02-man-bites-dog.png)
+
 The model knows that "dog bites man" is fundamentally different from "man bites dog" precisely because it tracks the position of each word. This architectural feature, essential for understanding language, is what causes the "quirk."
 
 The paper proves that LLMs aren't trying to be perfect Bayesian reasoners in every single instance. Instead, they are optimized to be brilliant on average, across all possible orderings of the data. They are "Bayesian in expectation."
+
+![LLM are bayesian in expectations](/assets/images/2025-08-02-llm-bayesian.png)
 
 It's a trade-off. They sacrifice perfect, rigid consistency for incredible efficiency and a deep understanding of sequential information. This quirk isn't a bug; it's a core feature of their intelligence.
 
