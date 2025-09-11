@@ -1,5 +1,5 @@
 ---
-title: "The MCP Supply Chain Nightmare: When AI Tools Turn Against You"
+title: "Part 3: The MCP Supply Chain Nightmare"
 date: 2025-08-23
 categories: [ai, security]
 tags: [mcp, supply-chain, tool-poisoning, npm, cybersecurity, ai-security]
@@ -8,7 +8,7 @@ excerpt: "How the rapid growth of MCP tool ecosystems created unprecedented supp
 
 The third and perhaps most insidious category of MCP vulnerabilities involves supply chain attacks that exploit the very ecosystem that makes MCP powerful: 
 
-```its rapidly growing collection of tools, servers, and packages.```
+> its rapidly growing collection of tools, servers, and packages.
 
 Unlike traditional supply chain attacks that steal data or install backdoors, MCP supply chain attacks can manipulate AI reasoning itself, creating a new category of threat that security teams are unprepared to handle.
 
@@ -18,7 +18,7 @@ Recent incidents, including the CVE-2025-6514 vulnerability that affected over 5
 
 Traditional software has a relatively simple trust model: 
 
-```you audit your dependencies, pin versions, and monitor for known vulnerabilities.```
+> you audit your dependencies, pin versions, and monitor for known vulnerabilities.s
 
 But MCP creates a "trust multiplication" effect where each tool you add exponentially increases your attack surface.
 
