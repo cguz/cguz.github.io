@@ -1,6 +1,6 @@
 ---
 title: "Part 3: The MCP Supply Chain Nightmare"
-date: 2025-08-23
+date: 2025-08-29
 categories: [ai, security]
 tags: [mcp, supply-chain, tool-poisoning, npm, cybersecurity, ai-security]
 excerpt: "How the rapid growth of MCP tool ecosystems created unprecedented supply chain vulnerabilities that traditional security can't detect"
@@ -431,5 +431,10 @@ The organizations that invest in AI-native supply chain security now will be pre
 The future of AI security depends on securing not just the AI models themselves, but the entire ecosystem of tools and services that AI agents interact with. The supply chain is where this battle will be won or lost.
 
 ---
+
+**This is Part 3 of a three-part series on MCP security and architecture:**
+- [Part 1: Tool Description Injection](/2025/08/23/tool-description-injection-the-invisible-mcp-threat.html) - The invisible threat hiding in MCP tool metadata
+- [Part 2: MCP Authentication Crisis](/2025/08/25/mcp-authentication-crisis-why-oauth-isnt-enough.html) - Why OAuth isn't enough for AI tool security
+- **Part 3: MCP Supply Chain Nightmare** (This article) - How tool ecosystems create unprecedented attack vectors
 
 *This concludes our three-part series on MCP security vulnerabilities. The complete series covers tool description injection, authentication failures, and supply chain attacks—the three critical vulnerability classes that define the current threat landscape for AI tool integration.*
