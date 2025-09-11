@@ -227,8 +227,3 @@ The paradigm shift from "many specialized tools" to "one powerful programming in
 ---
 
 *This approach to MCP design prioritizes the programming capabilities that AI agents already possess, rather than forcing them to learn dozens of new tool interfaces. The results suggest that sometimes the best tool is the ability to write tools.*
-
-**This is Part 2 of a three-part series on MCP security and architecture:**
-- [Part 1: Tool Description Injection](/2025/08/23/tool-description-injection-the-invisible-mcp-threat.html) - The invisible threat hiding in MCP tool metadata
-- **Part 2: Rethinking MCP Architecture** (This article) - Why code execution might be safer than specialized tools
-- [Part 3: MCP Supply Chain Nightmare](/2025/08/29/mcp-supply-chain-nightmare.html) - How tool ecosystems create unprecedented attack vectors
