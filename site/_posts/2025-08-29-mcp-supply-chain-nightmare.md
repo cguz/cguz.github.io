@@ -414,6 +414,10 @@ class SupplyChainMonitor:
         self.generate_alerts(threats + new_vulns + reputation_changes)
 ```
 
+## Conclusions
+
+The MCP supply chain represents both the greatest strength and the greatest vulnerability of AI tool integration. 
+
 Supply chain attacks are becoming more sophisticated:
 
 - Automatically generated tools that pass security reviews
@@ -426,10 +430,6 @@ We need more Innovations:
 - Immutable audit trails for tool provenance
 - Analyzing tools without exposing sensitive security methods
 - Preparing for post-quantum cryptography
-
-## Conclusions
-
-The MCP supply chain represents both the greatest strength and the greatest vulnerability of AI tool integration. The same openness that enables rapid innovation also creates unprecedented attack opportunities.
 
 Traditional supply chain security—focused on static analysis, dependency scanning, and vulnerability databases—is necessary but insufficient for AI tool ecosystems. We need new approaches that understand AI-specific attack vectors, monitor dynamic tool behavior, and can detect attacks that span multiple tools and timeframes.
 
