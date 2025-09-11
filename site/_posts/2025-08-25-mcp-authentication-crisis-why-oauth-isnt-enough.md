@@ -1,5 +1,5 @@
 ---
-title: "MCP's Authentication Crisis: Why OAuth Isn't Enough for AI Tool Security"
+title: "Part 2: MCP's Authentication Crisis: Why OAuth Isn't Enough for AI Tool Security"
 date: 2025-08-25
 categories: [ai, security]
 tags: [mcp, oauth, authentication, ai-security, zero-trust, api-security]
