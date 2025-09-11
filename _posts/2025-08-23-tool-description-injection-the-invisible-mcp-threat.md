@@ -6,6 +6,13 @@ tags: [mcp, prompt-injection, tool-description, ai-security, cybersecurity]
 excerpt: "How malicious instructions embedded in MCP tool descriptions can hijack AI agents without users ever knowing"
 ---
 
+**This is Part 1 of a three-part series on MCP security:**
+- **Part 1: Tool Description Injection** (This article) - The invisible threat hiding in MCP tool metadata
+- [Part 2: MCP Authentication Crisis](/2025/08/25/mcp-authentication-crisis-why-oauth-isnt-enough.html) - Why OAuth isn't enough for AI tool security
+- [Part 3: MCP Supply Chain Nightmare](/2025/08/29/mcp-supply-chain-nightmare.html) - How tool ecosystems create unprecedented attack vectors
+
+---
+
 In the rapidly expanding Model Context Protocol (MCP) ecosystem, a new class of attack that's both elegant and terrifying: **Tool Description Injection**. Unlike traditional prompt injection that requires user input, these attacks hide in the protocol's metadata itself, making them nearly impossible to detect through normal observation.
 
 Recent security research has revealed that this isn't just a theoretical vulnerability—it's actively being exploited in the wild, with hundreds of documented cases where AI agents have been silently compromised through poisoned tool descriptions.
@@ -240,8 +247,3 @@ The key insight is that traditional security models—designed for human users i
 ---
 
 *This analysis is based on security research from Tenable, recent vulnerability disclosures, and emerging patterns in AI-specific attack vectors.*
-
-**This is Part 1 of a three-part series on MCP security and architecture:**
-- **Part 1: Tool Description Injection** (This article) - The invisible threat hiding in MCP tool metadata
-- [Part 2: MCP Authentication Crisis](/2025/08/25/mcp-authentication-crisis-why-oauth-isnt-enough.html) - Why OAuth isn't enough for AI tool security
-- [Part 3: MCP Supply Chain Nightmare](/2025/08/29/mcp-supply-chain-nightmare.html) - How tool ecosystems create unprecedented attack vectors

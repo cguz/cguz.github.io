@@ -6,6 +6,13 @@ tags: [mcp, oauth, authentication, ai-security, zero-trust, api-security]
 excerpt: "The authentication model that works for human users is fundamentally broken when AI agents become the primary interface"
 ---
 
+**This is Part 2 of a three-part series on MCP security:**
+- [Part 1: Tool Description Injection](/2025/08/23/tool-description-injection-the-invisible-mcp-threat.html) - The invisible threat hiding in MCP tool metadata
+- **Part 2: MCP Authentication Crisis** (This article) - Why OAuth isn't enough for AI tool security
+- [Part 3: MCP Supply Chain Nightmare](/2025/08/29/mcp-supply-chain-nightmare.html) - How tool ecosystems create unprecedented attack vectors
+
+---
+
 The second critical vulnerability class in Model Context Protocol implementations reveals a deeper problem: 
 
 Our entire approach to authentication was designed for human users, not autonomous AI agents. 
@@ -359,12 +366,6 @@ The organizations that recognize this need and invest in AI-native authenticatio
 The future of AI security isn't about stronger passwords or better OAuth flows. It's about fundamentally rethinking how we verify identity, authorize actions, and audit behavior in systems where artificial and human intelligence must coexist securely.
 
 ---
-
-**This is Part 2 of a three-part series on MCP security and architecture:**
-- [Part 1: Tool Description Injection](/2025/08/23/tool-description-injection-the-invisible-mcp-threat.html) - The invisible threat hiding in MCP tool metadata
-- **Part 2: MCP Authentication Crisis** (This article) - Why OAuth isn't enough for AI tool security
-- [Part 3: MCP Supply Chain Nightmare](/2025/08/29/mcp-supply-chain-nightmare.html) - How tool ecosystems create unprecedented attack vectors
-
 ## References
 
 1. Anthropic. "Model Context Protocol Specification: Security Best Practices." June 18, 2025. [Available here](https://modelcontextprotocol.io/specification/2025-06-18/basic/security_best_practices){:target="_blank"}
