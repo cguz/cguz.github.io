@@ -1,6 +1,6 @@
 ---
 title: "MCP's Authentication Crisis: Why OAuth Isn't Enough for AI Tool Security"
-date: 2025-08-23
+date: 2025-08-25
 categories: [ai, security]
 tags: [mcp, oauth, authentication, ai-security, zero-trust, api-security]
 excerpt: "The authentication model that works for human users is fundamentally broken when AI agents become the primary interface"
@@ -360,7 +360,10 @@ The future of AI security isn't about stronger passwords or better OAuth flows. 
 
 ---
 
-*This is Part 2 of a three-part series on MCP security vulnerabilities. Part 3 will examine supply chain attacks and tool poisoning in the MCP ecosystem.*
+**This is Part 2 of a three-part series on MCP security and architecture:**
+- [Part 1: Tool Description Injection](/2025/08/23/tool-description-injection-the-invisible-mcp-threat.html) - The invisible threat hiding in MCP tool metadata
+- **Part 2: MCP Authentication Crisis** (This article) - Why OAuth isn't enough for AI tool security
+- [Part 3: MCP Supply Chain Nightmare](/2025/08/29/mcp-supply-chain-nightmare.html) - How tool ecosystems create unprecedented attack vectors
 
 ## References
 

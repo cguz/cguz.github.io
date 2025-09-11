@@ -1,5 +1,5 @@
 ---
-title: "Tool Description Injection: The Invisible MCP Threat Hiding in Plain Sight"
+title: "Part 1: Tool Description Injection: The Invisible MCP Threat Hiding in Plain Sight"
 date: 2025-08-23
 categories: [ai, security]
 tags: [mcp, prompt-injection, tool-description, ai-security, cybersecurity]
@@ -239,4 +239,9 @@ The key insight is that traditional security models—designed for human users i
 
 ---
 
-*This analysis is based on security research from Tenable, recent vulnerability disclosures, and emerging patterns in AI-specific attack vectors. Part 2 of this series will examine authentication and authorization failures in MCP implementations.*
+*This analysis is based on security research from Tenable, recent vulnerability disclosures, and emerging patterns in AI-specific attack vectors.*
+
+**This is Part 1 of a three-part series on MCP security and architecture:**
+- **Part 1: Tool Description Injection** (This article) - The invisible threat hiding in MCP tool metadata
+- [Part 2: MCP Authentication Crisis](/2025/08/25/mcp-authentication-crisis-why-oauth-isnt-enough.html) - Why OAuth isn't enough for AI tool security
+- [Part 3: MCP Supply Chain Nightmare](/2025/08/29/mcp-supply-chain-nightmare.html) - How tool ecosystems create unprecedented attack vectors
