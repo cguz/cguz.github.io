@@ -12,7 +12,9 @@ In this post, we explore the algorithmic approach used to retrieve the hidden fl
 
 This involves replacing specific characters in a text with "homoglyphs" — characters that look identical (or very similar) to the original but have different Unicode values.
 
-For a human, the text appears completely normal. However, to a computer, the file contains a mix of two different characters (e.g., a standard Latin 'a' and a Cyrillic 'а'). By assigning a binary value (0 or 1) to each variant, a hidden binary stream can be embedded directly into the document's text.
+The files contain a mix of two different characters (e.g., a standard Latin 'a' and a Cyrillic 'а'). 
+
+By assigning a binary value (0 or 1) to each variant, a hidden binary stream can be embedded directly into the document's text.
 
 ## The 'o' Anomaly
 
@@ -23,8 +25,8 @@ Upon analyzing the text extracted from `1.pdf`, we observed an anomaly in the ch
 ```
 1.  Scan the text for every occurrence of 'o' and 'ö'.
 2.  Perform a binary Conversion:
-    *   Latin 'o' $\rightarrow$ `0`
-    *   Umlaut 'ö' $\rightarrow$ `1`
+    - Latin 'o' -> `0`
+    - Umlaut 'ö' -> `1`
 3.  The generated binary stream, when grouped into 8-bit bytes and converted to ASCII, the hidden flag is revealed.
 ```
 
@@ -34,15 +36,17 @@ File 2 presented a more subtle challenge.
 
 The target character was 'a'. The text contained a mix of the standard Latin 'a' (`U+0061`) and the Cyrillic small letter 'а' (`U+0430`). Visually, they are identical in most fonts.
 
-Simply converting these characters to binary (Latin 'a' $\rightarrow$ 0, Cyrillic 'а' $\rightarrow$ 1) did not immediately yield a readable message. The resulting binary stream appeared corrupted.
+Simply converting these characters to binary (Latin 'a' -> 0, Cyrillic 'а' -> 1) did not immediately yield a readable message. The resulting binary stream appeared corrupted.
 
 **Solution:**
 
 ```
-1.  Isolate all 'a' and 'а' characters.
-2.  Map Latin 'a' to `0` and Cyrillic 'а' to `1`.
-3.  The solution required applying a **stride of 2**. This means the message bits were placed at every second position (indices 0, 2, 4...), effectively interleaving the real data with "noise" bits (or zeros).
-4.  After extracting every second bit, the resulting stream decoded perfectly into the hidden English sentence.
+1. Isolate all 'a' and 'а' characters.
+2. Map Latin 'a' to `0` and Cyrillic 'а' to `1`.
+3. Place the message bits at every second position (indices 0, 2, 4...), effectively interleaving the real data with "noise" bits (or zeros).
+4. After extracting every second bit, the resulting stream decoded perfectly into the hidden English sentence.
 ```
+
+As we can see in step 3 of the algorithm, the solution required applying a stride of 2.
 
 For the full solution and code, check out the repository: [Detect Leaking Data: Safeguarding AI for Space](https://github.com/Hackatoon/Detect-Leaking-Data-Safeguarding-AI-for-Space).
